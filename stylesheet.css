@@ -1,0 +1,273 @@
+body{
+	overflow-x: hidden;
+}
+.list_icons{
+	color: #0084ffe9;
+	font-size: 20px;
+	font-weight: bolder;
+	margin-left:98%;
+	display: none;
+}
+
+#varbar{
+	
+	/* background: #9dc9f2; */
+	background-image: linear-gradient(to right,#cdf5cd,#c4c4eb);
+	padding: 21px;
+	text-align: center;
+
+}
+
+
+ul a{
+	font-size: 16px;
+	text-decoration: none;
+	padding: 27px;
+	justify-content: space-around;
+	font-size: 21px;
+	font-weight: bold;
+	color: #444246;
+		
+ 	
+}
+ul a:hover{
+	color: #375efb;
+}
+ span{
+	color: rgba(255, 253, 253, 0.873);
+	position: absolute;
+	margin-left: -24px;
+	font-size: 20px;
+}
+span:hover{
+	color: #0586ff;
+	cursor: alias;
+}
+
+
+.col-md-7 h6{
+	text-align: center;
+	padding: 24px;
+	margin:11px;
+}
+.col-md-7{
+	background-image:linear-gradient(to right,#dfebc381,#e1f7f679);
+
+	height: 488px;
+	width: 100%;
+	margin-top: 16px;
+
+}
+.col-md-7 h4{
+	padding: 46px;
+	color:#161414;
+
+}
+.font{
+	font-size: 20px;
+	color: #717571d9;
+	padding: 14px;
+}
+.btn-padding{
+	padding-top: 19px;
+}
+/* .prey img{
+	width: 1302px;
+} */
+.prey{
+	height: 500px;
+	width: 1319px;
+	margin-left: -12px;
+    background-image: linear-gradient(rgba(3, 0, 0, 0.603),rgba(3,0,0,.662)),url(Ritco.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 14px;
+
+}
+.panel h1{
+	color: whitesmoke;
+	text-transform: uppercase;
+	font-family: Doulos SIL;
+	margin-top: 15px;
+}
+.panel p{
+	color: #eff3f6;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+.cover{
+	padding: 21px;
+	
+}
+.content h1{
+	padding: 10px;
+	font-size: 46px;
+	text-transform: uppercase;
+
+}
+.line{
+	background-color: red;
+	width: 380px;
+	height: 2.5px;
+	margin: auto;
+	margin-bottom: 41px;
+}
+.new_section{
+	background-image: linear-gradient(to right,#d7d8db,#f8eeda);
+	width: 1319px;
+	margin-left: -12px;
+ 	margin: auto;
+	margin-top: 13px;
+}
+
+.content p{
+	font-size: 21px;
+}
+.main-edt{
+	/* background-color: #98a4d4; */
+	height: 250px;
+
+}
+.rect{
+	margin: 24px;
+	height:226px;
+	width: 260px;
+	font-size: 17px;
+	font-family: Elephant;
+	/* border: solid green; */
+	background: rgb(243, 250, 232);
+}
+.rect p{
+	font-family: Britannic;
+}
+.purchase{
+	padding: 35px;
+	margin: 26px;
+	background-image:linear-gradient(to right,#f0e9e9,#ecf4ec);
+	width: 1319px;
+	margin-left: 172px;
+ 
+}
+.purchase h1{
+	text-transform: uppercase;
+	font-family: Britannic;
+	font-weight: 100;
+}
+.purchase h2{
+	font-family: Cambria;
+	font-weight: 200;
+}
+.pricing{
+	padding: 43px;
+	margin-top: 15px;
+	background-color: #c8d5c8d9;
+	
+	border-radius: 11px;
+
+	
+}
+.d-flex .card{
+	margin: 22px;
+}
+.card{
+	background-color: #deecded9;
+}
+.pricing h2{
+	padding-top: -41px;
+
+}
+.title {
+	color: #1e1e1f;
+	font-weight: 800;
+	text-transform: uppercase;
+	font-family: Constantia;
+	
+}
+.card-text{
+	color: rgba(89, 81, 81, 0.719);
+	font-family: Doulos SIL;
+	font-size: 24px;
+}
+.fa-person-booth{
+	font-size: 28px;
+	color: rgb(53, 32, 46);
+	padding: 16px;
+}
+.col-md-12 h1{
+	text-transform: uppercase;
+	color: #57575b;
+}
+.col-md-12 p{
+	font-size: 26px;
+	font-family: Cambria;
+	color: #9c9595;
+}
+.decktop{
+	width: 50%;
+	height: 200px;
+	margin-left: 277px;
+	padding: 21px;
+}
+.d-flex i{
+	color: #b39f9f !important;
+}
+.container h1{
+	text-transform: uppercase;
+}
+.container .text-secondary{
+	font-size: 20px;
+	font-weight: bold;
+
+}
+.main_img img{
+	height: 230px;
+	width: 100%;
+}
+
+@media (max-width:799px){
+	#varbar{
+		background-image:linear-gradient(to right,#0f100f,#43434b);
+		height: 100%;
+		display: none;
+		
+		
+	}
+	ul a{
+		color: whitesmoke;
+		font-size: 15px;
+		display: flex;
+		margin-left: -100%;
+		
+		
+	}
+	span{
+		font-size: 15px;
+		margin-left: -48%;
+	}
+	.list_icons{
+		margin-left: 92%;
+		position: absolute;
+		font-size: 28px;
+		display: block;
+		
+	}
+	.all_abov{
+		width: 100%;
+		background: #363535;
+		padding: 12px;
+		height: 71px;
+
+	}
+	.all_abov button{
+		/* background-color: #0586ff; */
+		border: none;
+		background: none;
+		color: #46a3fbfc;
+	}
+	.list_icons:hover button{
+		color: #40ff00;
+	}
+
+}
