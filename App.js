@@ -1,3 +1,6 @@
+
+
+
 // for navigation bar
 var x = window.pageYOffset;
 window.onscroll = function () {
