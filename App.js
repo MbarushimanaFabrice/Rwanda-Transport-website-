@@ -3,7 +3,7 @@
 
 
 
-// for navigation bar
+// for navigation bar  
 var x = window.pageYOffset;
 window.onscroll = function () {  
 	var x = window.pageYOffset;
