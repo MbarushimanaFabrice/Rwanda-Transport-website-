@@ -5,7 +5,7 @@
 
 // for navigation bar
 var x = window.pageYOffset;
-window.onscroll = function () {
+window.onscroll = function () {  
 	var x = window.pageYOffset;
 	if (x = y) {
 		document.getElementById("varbar").style.backgroundColor = "red";
